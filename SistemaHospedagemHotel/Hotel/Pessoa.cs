@@ -36,7 +36,7 @@ namespace SistemaHospedagemHotel.Hotel
 
         public string Sobrenome
         {
-            get => _sobrenome;
+            get => _sobrenome.ToUpper();
 
             set
             {
@@ -45,6 +45,7 @@ namespace SistemaHospedagemHotel.Hotel
                 {
                     throw new ArgumentException("O sobrenome não pode ser vazio");
                 }
+                _sobrenome = value;
             }
         }
 
