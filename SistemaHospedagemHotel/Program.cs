@@ -18,7 +18,7 @@ class Program
 
                 // Suite
 
-                Suite s1 = new Suite("Master", 2, 152);
+                Suite s1 = new Suite(tipoSuite: "Master", capacidade: 2, valorDiaria: 152);
 
                 // Reserva
                 Reserva r1 = new Reserva(diasReservados: 10);
